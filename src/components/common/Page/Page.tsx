@@ -1,11 +1,19 @@
-import React, { FC } from "react";
-import { StyledPageContainer } from "./styles";
+import React, { FC, ReactNode } from "react";
+import { AppContent } from "../../../styles/layout";
+import Header from "../Header/Header";
+import PageHeader from "../PageHeader/PageHeader";
+import { PageMain } from "./styles";
 
-const Page: FC = ({ children }) => {
+const Page: FC<{ pageHeaderContent?: ReactNode }> = ({
+  pageHeaderContent,
+  children,
+}) => {
   return (
-    <>
-      <StyledPageContainer>{children}</StyledPageContainer>
-    </>
+    <PageMain>
+      <Header />
+      <PageHeader content={pageHeaderContent} />
+      <AppContent>{children}</AppContent>
+    </PageMain>
   );
 };
 

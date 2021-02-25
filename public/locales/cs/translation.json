@@ -1,1 +1,34 @@
-{}
+{
+  "common": {
+    "loadError": "Při načítání dat se vyskytla chyba",
+    "loading": "Načítání..."
+  },
+  "header": {
+    "logoText": "ADMINISTRACE",
+    "links": {
+      "users": "Uživatelé",
+      "posts": "Články"
+    },
+    "logout": "Odhlásit"
+  },
+  "users": {
+    "title": "Uživatelé",
+    "table": {
+      "name": "Jméno",
+      "email": "Email",
+      "address": "Adresa"
+    }
+  },
+  "posts": {
+    "title": "Články",
+    "table": {
+      "id": "ID",
+      "title": "Titulek"
+    }
+  },
+  "postsDetail": {
+    "comments": {
+      "title": "Komentáře"
+    }
+  }
+}

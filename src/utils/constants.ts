@@ -1,21 +1,12 @@
-export const API_URL = "";
+export const API_URL = "https://jsonplaceholder.typicode.com";
 
 export const COLORS = {
-  //   primary: "#009ee0",
-  //   primaryDark: "#575850",
-  //   secondary: "#e6e7e8",
-  //   secondaryDark: "#b0b0b0",
-  //   gray: "#3e3d3d",
-  //   grayDark: "#2c2e2d",
-  //   grayLight: "#93979e",
-  //   whitesmoke: "#f5f5f5",
-  //   green: "#00ae26",
-  //   orange: "#e09400",
-  //   red: "#e00000",
-  //   white: "#FFFFFF",
-  //   black: "#000000",
-  //   transparent: "transparent",
-  //   fontColor: "#575850",
+  white: "#ffffff",
+  black: "#000000",
+  font: "#72728d",
+  lightPurple: "#e5e6f7",
+  darkPurple: "#3a3959",
+  purpleGray: "#abaab8",
 };
 
 export const BREAKPOINTS = {
